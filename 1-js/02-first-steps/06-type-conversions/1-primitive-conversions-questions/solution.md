@@ -16,9 +16,9 @@ null + 1 = 1 // (5)
 undefined + 1 = NaN // (6)
 ```
 
-1. The addition with a string `"" + 1` converts `1` to a string: `"" + 1 = "1"`, and then we have `"1" + 0`, the same rule is applied.
-2. The subtraction `-` (like most math operations) only works with numbers, it converts an empty string `""` to `0`.
-3. The addition with a string appends the number `5` to the string.
-4. The subtraction always converts to numbers, so it makes `"  -9  "` a number `-9` (ignoring spaces around it).
-5. `null` becomes `0` after the numeric conversion.
-6. `undefined` becomes `NaN` after the numeric conversion.
+1. ""değer taşımadığı halde string yapıdadır. Toplama işlemi burada birleştirme şeklinde gerçekleşir."" değer taşımadığı için  `"" + 1 = "1"` olacaktır.  Aynı şekilde "1" + 0 = "10"
+2. Çıkarma işlemi çoğu matamatik işleminde olduğu gibi string değerleri sayıya dönüştürür. "" bu durumda `0` olarak işleme girer. 0-1+0 =-1
+3. sayısal bir eleman string bir değerle toplama işlemine girdiğinde stringe dönüşür ve birleştirme işlemi gerçekleşir.(string değerdeki boşlukların korunduğuna dikkat edin.)
+4. " -9 " Çıkarma işlemine girdiğinde sayısal olan `-9` değerini alır -9 -5 = -14
+5. `null` un numaraya donuşumunün karşılığı `0` dır 0+1=1
+6. `undefined` in numaraya donuşumunün karşılığı `NaN` dır. `NaN`+1 = `NaN`
