@@ -12,7 +12,7 @@
 Diğer operatörler gibi bunun sonucu da değer dönecektir. Dönen değer booleandır.
 
 - `true` --  "evet", "dogru" veya "gerçek" demek.
-- `false` --  "no", "yanlış" veya "yalan" demektir.
+- `false` --  "hayır", "yanlış" veya "yalan" demektir.
 
 Örneğin:
 
