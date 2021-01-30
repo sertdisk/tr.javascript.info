@@ -108,7 +108,7 @@ Dahası için: <info:variables> ve <info:types> konularına bakabilirsiniz.
 [`alert(mesaj)`](mdn:api/Window/alert)
 : Mesajın çıktısını ekrana uyarı olarak ver.
 
-tüm bo fonksiyonlar *modal* dır. Tekrara hatırlatmak gerekirse modal kullanıcının etkileşimi olana kadar kodu durdururlar. Yani kullanıcıdan cevabı beklerler.
+tüm bu fonksiyonlar *modal* dır. Tekrara hatırlatmak gerekirse modal kullanıcının etkileşimi olana kadar kodu durdururlar. Yani kullanıcıdan cevabı beklerler.
 
 Örneğin:
 
